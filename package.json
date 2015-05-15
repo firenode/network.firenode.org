@@ -1,0 +1,8 @@
+{
+	"name": "network.firenode.org",
+	"main": "./server.js",
+	"mappings": {
+	    "firenode-for-nodejs": "../../../../../node_modules/firenode-for-nodejs",
+	    "firenode-for-browser": "../../../../../node_modules/firenode-for-browser"
+	}
+}
