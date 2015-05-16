@@ -7,5 +7,7 @@ exports.main = function () {
 
 	console.log("firenode.io main server!");
 
-	FIRENODE.main();
+	FIRENODE.main({
+		port: process.env.PORT
+	});
 }
